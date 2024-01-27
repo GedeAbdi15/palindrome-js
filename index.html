@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Palindrom Check</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <video autoplay loop muted>
+      <source src="vid/video.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+
+    <div class="card">
+      <h2>Palindrom Checker</h2>
+
+      <table>
+        <tr>
+          <td>
+            <label for="inputan" style="margin-right: 30px">Inputan</label>
+          </td>
+          <td>
+            <input
+              type="text"
+              id="inputan"
+              name="inputan"
+              placeholder="Input any word"
+              style="text-align: center"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="result" style="margin-right: 30px">Hasil</label>
+          </td>
+          <td>
+            <p id="result"></p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="status">Status</label>
+          </td>
+          <td>
+            <p id="status"></p>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <button onclick="checkPalindrome()">Check</button>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
